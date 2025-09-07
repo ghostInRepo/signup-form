@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DreamScape Sign-up</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-container">
+      <i class="fas fa-mountain logo-icon"></i>
+      <div class="logo">DREAM</div>
+    </div>
+
+    <div class="image-credit">
+      Photo by <a href="#https://unsplash.com/@bykrystal" target="_blank">Krystal Ng</a> on Unsplash
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="intro">
+      <p>
+        Welcome to <strong>DreamScape</strong>, where your aspiration become reality! Join our community of dreamers and
+        doers to unlock your full potential.
+      </p>
+      <p>Sign up today to begin your journey toward achieving your most ambitious goals.</p>
+    </div>
+
+    <div class="form-container">
+      <h2 class="form-title">Create Your Account</h2>
+      <form id="signup-form">
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" id="first-name" name="first-name" required placeholder="Enter your first name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" name="last-name" required placeholder="Enter your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+          </div>
+
+          <div class="form-group">
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+          </div>
+
+          <div class="form-group">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" placeholder="At lease 8 characters" required
+              minlength="8">
+          </div>
+
+          <div class="form-group">
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password"
+              required minlength="8">
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="button-container">
+      <button type="submit" form="signup-form">Create Account</button>
+      <p class="login-link">
+        Already have an account? <a href="#">Log in</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
